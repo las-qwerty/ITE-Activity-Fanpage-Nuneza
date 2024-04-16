@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick Grimes Fan Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about-title">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <div class="home-text">
+                <h1>Rick Grime's Fan Page</h1>
+                <div class="about-gif">
+                    <img src="img/rickrunning.webp" alt="Animated GIF">
+                    <img src="img/rick-grimes.gif" alt="Animated GIF">
+                    <img src="img/rickgrimesbear.gif" alt="Animated GIF">
+                </div>
+                <h2>Welcome to our Fan Page!</h2>
+                <p>This is where you can find all the latest updates and news about our favorite topic.</p>
+            </div>
+            <div class="home-gallery">
+                <figure>
+                    <img src="img/thewalkingdead.jpg" alt="Rick Grimes">
+                    <img src="img/theoneswholive.jpg" alt="Rick Grimes">
+                    <img src="img/negan.jpg" alt="Rick Grimes">
+                </figure>
+            </div>
+        </section>
+        <section id="about-title">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 style="text-align:center;">About Rick Grimes</h2>
+                    <p>Rick Grimes is a fictional character and the protagonist in the comic book</p>
+                    <p>series The Walking Dead, as well as the television series of the same name. </p>
+                    <p>He is portrayed by actor Andrew Lincoln.</p>
+                    <div class="about-gif">
+                        <img src="img/zombie.gif" alt="Animated GIF">
+                    </div>
+                </div>
+                <div class="about-img">
+                    <img src="img/rickgrimesabout.jpg" alt="thewalkingdead">
+                </div>
+            </div>
+        </section>
+        <section id="gallery">
+            <h2>Gallery of Rick Grimes</h2>
+            <div class="image-gallery">
+                <figure>
+                    <img src="img/rickgrimes.jpg" alt="Rick Grimes">
+                </figure>
+                <figure>
+                    <img src="img/rickgrimes1.webp" alt="Rick Grimes">
+                </figure>
+                <figure>
+                    <img src="img/rickgrimes2.jpg" alt="Rick Grimes">
+                </figure>
+                <figure>
+                    <img src="img/andrew.jpg" alt="Rick Grimes">
+                </figure>
+                <figure>
+                    <img src="img/andrew1.jpg" alt="Rick Grimes">
+                </figure>
+                <figure>
+                    <img src="img/andrew2.jpg" alt="Rick Grimes">
+                </figure>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="contact-text">
+                <h1>Contact Us</h1>
+                <h3>Feel Free to reach us to suggest for the page!</h3>
+            </div>
+            <div class="about-gif">
+                <img src="img/zombierunning.gif" alt="Animated GIF">
+            </div>
+            <div class="contact-buttons">
+                <a href="https://www.facebook.com/TheWalkingDeadAMC/" target="_blank" class="contact-button"><i
+                        class="fab fa-facebook-f"></i> Facebook</a>
+                <a href="https://www.tiktok.com/@thewalkingdead" target="_blank" class="contact-button"><i
+                        class="fab fa-tiktok"></i> TikTok</a>
+                <a href="https://www.instagram.com/amcthewalkingdead/" target="_blank" class="contact-button"><i
+                        class="fab fa-instagram"></i> Instagram</a>
+            </div>
+
+            <form action="#" method="POST" class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+
+    <footer>
+        <p>&copy; 2024 Rick Grimes Fan Page. All rights reserved.</p>
+    </footer>
+    <!-- Add this button at the end of your body tag -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+    <script src="script.js" defer></script>
+</body>
+
+</html>
